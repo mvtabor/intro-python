@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Seguna pagina</title>
+    </head>
+    <body>
+        <form> <!--forma básica o una de las más comunes para pedir datos al usuario-->
+            <input /> <!--etiqueta para ingresar datos-->
+            <fieldset>  <!--agrupa las etiquetas de un solo campo en una caja/set-->
+            <legend>Datos personales</legend> <!--entrega texto característico a fieldset-->
+            <br>
+            <label>Edad</label> <!--entrega etiqueta a los campos de input;asociado a ellos pero no es necesario usarlas-->
+            <input type="number" placeholder="Ingresa edad..."> <!--ingresar números--> <!--Cuando queremos pasarle propiedades a los campos o etiquetas en html,-->
+            <br/>                                               <!--lo hacemos justo después  de haber creado la etiqueta-->   
+            <label>Contraseña</label> 
+            <input type="password" placeholder="Ingresa contraseña..."> <!--ingresar contraseña-->
+            <br/>                                               <!--placeholder agrega un texto difuminado indicando accion que quieres que realice-->
+            <label>Nombre</label> 
+            <input type="text" placeholder="Ingresa nombre del usuario..."> <!--ingresar texto, lo trae por defecto--> 
+            <input type="submit" value="Aceptar"/> <!--enviar--> 
+            <input type="submit">
+            </fieldset>
+            <hr/>
+            <textarea></textarea> <!--agrega un cuadro de texto que puede ser redimensionado para que el usuario pueda agregar texto-->
+            <button>Aceptar</button> <!--agrega un botón; función similar a submit-->
+            <select> <!--muestra opciones que vamos a poder seleccionar (los arroja como input number)-->
+                <option value="luffy">Luffy</option>  <!--option son las opciones a seleccionar-->
+                <option value="zoro">Zoro</option> <!--value le entrega un nuevo valor a la etiqueta-->
+                <option value="robin">Robin</option>
+            </select>
+        </form>
+    </body>
+</html>
