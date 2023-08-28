@@ -1,1 +1,11 @@
+body {       /*primer tipo de selector en la cual mencionamos la etiqueta html a la cual queremos darle estilo */
+    background-color: #efefef;
+}
 
+#contenido {  /*con el selector id="" utilizamos el # para mencionar */
+    color: black;
+}
+
+.etiqueta {   /*para mencionar al selector de class utilizamos el . (punto)*/
+    color: orangered;
+}
