@@ -1,0 +1,17 @@
+body {
+    background-color: #eee;
+}
+
+.caja {
+    margin: 10px; /*esta propiedad genera una separación (margen) entre nuestra caja y la caja superior (body)*/
+    padding: 10px; /*bordeará el contenido pero dentro de la caja; límite*/
+    border-style: outset solid;
+    border-width: 6px; /*le asigna pixeles a la anchura del borde*/
+    border-color: #faa;
+    border-left: 4px solid #afa;  /*sobreposición de propiedades*/
+    background-color: #aaf;
+    border-radius: 4px; /*redondea las esquinas*/
+    height: 50px;
+    width: 120px;
+    color: #575;
+}
