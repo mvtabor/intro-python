@@ -1,0 +1,24 @@
+body {
+    background-color: #eee;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif; /*tipografía*/
+    font-style: normal; /*estilo*/
+    font-size: 20px; /* tamaño de las letras*/
+    font-weight: 500; /*grueso de la fuente*/
+    color:  #222fff;
+    text-align: justify;
+    /*text-decoration: underline;*/
+    text-indent: 20px; /*identa el texto desplazando la primera línea hacía la derecha*/
+    line-height: 1.7; /*indica la altura de las líneas -o interlineado- en el texto*/
+    word-spacing: 5px;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3); /*desplazamiento a la derecha, desp hacia abajo, difuminado, color */
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase; /*hacerlas mayusculas todas las letras*/
+    /*text-transform: lowercase; ; hace minusculas todas las letras del texto*/
+    letter-spacing: 2px; /*da un espaciado entre letra y letra*/
+}
