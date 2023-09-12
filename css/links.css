@@ -1,0 +1,32 @@
+body {
+    background-color: #eee;
+}
+
+a {
+    color: hotpink;
+    background-color: #f00;
+    border: solid 1px #d00;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 25px;
+    border-radius: 4px;
+}
+
+a:link { /*a través de los selectores le podemos agregar estilo al link*/
+    color: pink; /*este primero es para cuando el link no ha sido visitado, su estado normal*/
+    text-decoration: none;
+}
+
+a:visited { /*cuando el link se encuentra visitado*/
+    color: white;
+}
+
+a:hover { /*cuando colocamos el cursor por encima*/ 
+    color: white;
+    background-color: #f55; 
+    /*text-decoration: underline;*/
+}
+
+a:active { /*cuando le damos click*/
+    color: black;
+} 
