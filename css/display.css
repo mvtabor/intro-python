@@ -1,0 +1,44 @@
+body {
+    background-color: #eee;
+}
+
+#invisible {
+    /*display: none;*/
+}
+
+span {
+    display: block; /*transformamos la propiedad de display en un bloque*/
+}
+
+/* y al revés también, podemos convertir un block en un inline*/
+
+p {
+    /*max-width: 350px;
+    /*background-color: chocolate;*/
+    /*margin: auto;
+    /*position: relative; /*fixed*/
+    /*right: 15px;*/
+    left: 0px;
+    top: 0px;
+    bottom: 0px;
+
+}
+ img {
+    float: right;
+ }
+
+ img:hover{
+    opacity: 0.7;
+ }
+
+#over {
+    width: 100px;
+    height: 100px;
+    /*overflow: hidden; todo el contenido que no se alcance a mostrar, permanecerá oculto*/
+    overflow: scroll; /*auto también le agrega la barra para hacer scroll si es que la necesita*/
+    overflow-y: auto;
+}
+
+div p {
+    color: darkblue;
+}
