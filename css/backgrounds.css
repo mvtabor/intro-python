@@ -1,0 +1,22 @@
+body {
+    background-color: #eee;
+}
+
+.fondo {
+    /*height: 400px;*/
+    /*background: rgba(0, 255, 0, 0.2) url('https://placekitten.com/200/300') no-repeat right top fixed; */
+    /*background-color: greenyellow;
+    background-image: url('https://placekitten.com/200/300');
+    background-repeat: no-repeat; /*si el display block tiene más px que la imágen y sólo queremos que se repita en el eje x o y, o que no se repita */
+    /*background-position: right top; /*indicamos donde queremos que sea la posición de la imagen*/
+    /*background-attachment: fixed; /*si queremos que baje a medida que hacemos scroll*/
+    /*background-size: cover; /*si queremos que la imagen cubra todo el ancho */
+
+    /*podemos meter todas las etiquetas en una sola línea (vemos que background-size será necesario en otra línea), pero en el orden indicado*/
+    /* en R, G , B, 0 es blanco y 255 negro; en alpha 0 es transparencia y 1 sólido*/
+    background-image: ;
+}
+
+.colores {
+    background-color: hsl(140, 35%, 70%) /*hsl(hue, saturation, lightness); hue va de 0 a 360; 0 rojo, 120 verde y 240 azul; brillo 0% negro y 100% luminoso blanco; también le podemos entregar un alpha*/ 
+}
