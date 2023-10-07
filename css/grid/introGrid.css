@@ -1,0 +1,30 @@
+body {
+    background-color: #eee;
+}
+
+.grid {
+    display: grid;
+    /*grid-template-rows: minmax(100px, auto); /*valor mínimo y valor máximo*/
+    /*grid-template-rows: 50px 100px; /*50px para fila A, 100 para B y los demás son asignados en automático*/
+    /*grid-template-columns: 90px 50px 120px; /*1fr 2fr 3fr también lo podemos dividir por fracciones*/
+    /*grid-template-rows: repeat(2, 50px); /*cuántas veces repetir el valor del segundo argumento*/
+    /*grid-template-columns: minmax(auto, 50%) 1fr 3em;*/
+    grid-template-rows: [row-1-inicio] 50px [row-2-inicio] 50px [row-3-fin]; /*asignamos nombres a las filas*/
+    grid-template-columns: [col-1-inicio] 1fr [col-2-inicio] 1fr [col-3-inicio] 1fr [col-4-fin];
+    /*grid-template-columns: 30px repeat(3, 1fr) 15px;*/
+    grid-gap: 15px; /*espaciado entre filas y columnas; se asigana el mismo valor a ambos si sólo intruduce un valor*/
+
+}
+
+.elemento {
+    background-color: red;
+}
+
+.header {
+    /*grid-column-start: 1; /*podemos indicar donde inicia y acaba un grid de columnas */
+    /*grid-column-end: 6;
+    /*grid-row-start: 1; /*propiedad similar a la anterios, para filas*/
+    /*grid-row-end: 3;*/
+    grid-column: col-1-inicio / col-4-fin;
+    grid-row: row-1-inicio / row-3-fin;
+}
