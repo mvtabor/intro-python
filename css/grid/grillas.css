@@ -1,0 +1,31 @@
+body {
+    background-color: #eee;
+}
+
+.grid {
+    /*background-color: red;*/
+    display: grid;
+    grid-template-areas: "header header"
+                         "content sidebar"
+                         "footer footer";
+    grid-template-rows: 150px 1fr 100px;
+    grid-template-columns: 1fr 200px;
+    grid-auto-rows: 140px; /*para darle propiedades a las grillas implicitas*/
+    grid-auto-flow: row;
+    /*justify-items: stretch; /*center: colocará el contenido en el centro del eje horizontal*/
+    /*align-items: end;*/
+}
+
+.red {
+    background-color: red;
+}
+
+.header {
+    grid-column: col-inicio / col-fin 3;
+    grid-row: row-inicio / row-fin 3;
+}
+
+.item-1 { /*creamos una clase para darle propiedades a una grilla implicita en particular*/
+    justify-self: center; /*horizontal*/
+    align-self: center;
+}
