@@ -1,2 +1,2 @@
 # intro-python
-un poco de mis primeros pasos en python
+un poco de python, html y css.
