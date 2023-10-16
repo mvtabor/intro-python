@@ -1,0 +1,38 @@
+.flexbox {
+    display: flex;
+    /*flex-wrap: wrap-reverse; /*nowrap es propiedad por defecto, pero wrap tomará el contenido excedente y lo pasará a la línea de abajo*/
+    flex-flow: row wrap; /*fle-direction y flex-wrap la podemos resumir en esta propiedad*/
+    /*align-items: flex-start;*/
+    height: 150px;
+}
+
+a {
+    color: greenyellow;
+    background-color: green;
+    border: solid 1px greenyellow;
+    padding: 10px;
+    margin: 15px;
+    margin-top: 25px;
+    border-radius: 4px;
+}
+
+.red {
+    background-color: red;
+}
+
+.primero {
+    /*flex-grow: 1;
+    /*flex-basis: 120px; /*le dará un ancho inicial al elemento*/
+    flex: 1 120px; /* grow - basis*/
+}
+.tercero {
+    flex-grow: 2;
+    align-self: stretch;
+}
+
+.segundo {
+    flex-grow: 1;
+}
+
+
+/*float, clear, vertical-align no tienen efecto dentro de los elementos de flex*/
