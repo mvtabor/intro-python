@@ -1,2 +1,2 @@
 # intro-python & web development
-un poco de python, html y css.
+Un poco de python y desarrollo web. Trataré de ir integrando todo los recorrido y tejiendo los hilos de manera comprensible.
